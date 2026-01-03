@@ -1,0 +1,72 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.log
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+
+# Model files (too large for GitHub - 2-3MB)
+backend/models/*.npy
+backend/models/*.pkl
+
+# Keep models folder structure
+!backend/models/.gitkeep
+
+# Training outputs (images can be large)
+backend/outputs/*.png
+backend/outputs/*.jpg
+backend/outputs/*.jpeg
+
+# Data files (keep csv, ignore if you add more later)
+# backend/data/*.csv  # Uncomment if dataset is large
+
+# VS Code
+.vscode/
+.history/
+
+# IDE
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Frontend - Node modules (HUGE folder)
+diabetes-frontend/node_modules/
+
+# Frontend - Build output
+diabetes-frontend/build/
+diabetes-frontend/dist/
+
+# Frontend - Environment variables
+diabetes-frontend/.env
+diabetes-frontend/.env.local
+diabetes-frontend/.env.development.local
+diabetes-frontend/.env.test.local
+diabetes-frontend/.env.production.local
+
+# Frontend - Logs
+diabetes-frontend/npm-debug.log*
+diabetes-frontend/yarn-debug.log*
+diabetes-frontend/yarn-error.log*
+
+# Frontend - Testing
+diabetes-frontend/coverage/
+
+# Frontend - Cache
+diabetes-frontend/.eslintcache
+
+# Misc
+*.bak
+*.tmp
+.DS_Store
